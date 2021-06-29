@@ -1,10 +1,5 @@
-The covid_notebook.ipynb file contains the training script. The model has been trained on a colab runtime so has all the requirements as per that.
+# Covid-and-Pneumonia-detection-using-chest-X-RAYS
 
-The Covid_testing_script.ipynb file has the script used for testing on a random image.
+This project was done as a part of Artificial Intellingence course at Delhi Technological University.
 
-The itis91.h5 is the saved model file that is loaded in the Covid_testing_script.ipynb file.
-
-
-###########################################################################################
-Please watch final_demo video for an overview of the code implemetation.
-###########################################################################################
+Developed a minimalistic CNN architecture to detect healthy, covid infected and pneumonia infected people separately through their chest X-Ray Scans. Callbacks have been used to skip the need to hard code the number of iterations over the dataset. Other optimisations like image augmentation, cross validation, saving best weights have also been deployed. A demonstration video has been added to help understand the code.
